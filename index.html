@@ -3,17 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <title>Learn Climate Change!</title>
-
-        <!-- Includes jQuery and jQuery UI--> 
-        <script src="https://code.jquery.com/jquery.min.js"></script>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="http://d3js.org/d3.v3.js"></script>
+        <script type="text/javascript" src="https://d3js.org/d3-queue.v2.min.js"></script>
+        <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="//d3js.org/topojson.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
         
-        <!-- Includes fullPage.js components-->
-        <script src="bower_components/fullpage.js/vendors/jquery.slimscroll.js"></script>
-        <script src="bower_components/fullpage.js/jquery.fullPage.js"></script>
-        <link href="bower_components/fullpage.js/jquery.fullPage.css" type="text/css"/>
 
         <script src="/js/main.js"></script>
         <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -21,21 +16,32 @@
 
 <body>
 
-<div id="fullpage">
-
-    <div class="section active" id="section0">
-        <h1>Intro Page</h1>
+<div id='graphic'>
+    <div id='sections'>
+          <section class="step">
+	        <div class="title">My title</div>
+	         <text>Some text.</text>
+	  </section>
+      <section class="step">
+	        <div class="title">My title</div>
+	         <text>Some text.</text>
+	  </section>
+      <section class="step">
+	        <div class="title">My title</div>
+	         <text>Some text.</text>
+	  </section>
+      <section class="step">
+	        <div class="title">My title</div>
+	         <text>Some text.</text>
+	  </section>
+      <section class="step">
+	        <div class="title">My title</div>
+	         <text>Some text.</text>
+	  </section>
     </div>
-    <div class="section" id="section1">
-        <h1>Section1</h1>
-    </div>
-    <div class="section" id="section2">
-        <h1>Section2</h1>
-    </div>
-    <div class="section" id="section3">
-        <h1>Section3</h1>
-    </div>
+    <div id="vis"></div>
 </div>
+  
 
 </body>
 </html>
